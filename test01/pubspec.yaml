@@ -76,10 +76,10 @@ flutter:
   fonts:
     - family: Poppins
       fonts:
-        - asset: fonts/Poppins-Regular.ttf
-        - asset: fonts/Poppins-Bold.ttf
-        - asset: fonts/Poppins-Light.ttf
-        - asset: fonts/Poppins-Medium.ttf
+        - asset: lib\Assets\Fonts\Poppins-Bold.ttf
+        - asset: lib\Assets\Fonts\Poppins-Regular.ttf
+        - asset: lib\Assets\Fonts\Poppins-Light.ttf
+        - asset: lib\Assets\Fonts\Poppins-Medium.ttf
 
 
 

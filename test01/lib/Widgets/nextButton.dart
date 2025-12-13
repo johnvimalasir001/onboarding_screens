@@ -15,8 +15,8 @@ class NextButton extends StatelessWidget {
         );
       },
       backgroundColor: Colors.blue,
-      shape: RoundedRectangleBorder(),
-      child: Icon(Icons.arrow_forward),
+      shape: CircleBorder(),
+      child: Icon(Icons.arrow_forward, color: Colors.white),
     );
   }
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:test01/Screens/home.dart';
+import 'package:test01/Screens/explore_screen.dart';
 import 'package:test01/Theme/size.dart';
 
 void main() {
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     ScreenSize.init(context);
     return MaterialApp(
-      home: Home(),
+      home: ExploreScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
