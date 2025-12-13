@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:test01/Screens/explore_screen.dart';
+import 'package:test01/Screens/home.dart';
+import 'package:test01/Screens/search.dart';
 import 'package:test01/Theme/size.dart';
+import 'package:test01/Screens/explore_screen.dart';
 
 void main() {
   runApp(const MyApp());

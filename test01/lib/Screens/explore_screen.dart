@@ -11,7 +11,7 @@ class ExploreScreen extends StatelessWidget {
     return Scaffold(
       floatingActionButton: NextButton(nextScreen: ProfileScreen()),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
-      
+      appBar: myAppBar("Explore Screen"),
       body: Column(children: [
         ],
       ),
