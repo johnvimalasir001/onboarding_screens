@@ -1,21 +1,21 @@
 import 'package:flutter/material.dart';
 
 
-class Theme {
-  TextStyle heading1 = TextStyle(
-    fontFamily: 'Poppins-Bold',
-    fontWeight: FontWeight.bold,
-    fontSize: 24
+class AppText {
+  static const TextStyle heading1 = TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+    fontSize: 22
   );
 
-  TextStyle normal = TextStyle(
-    fontFamily: 'Poppins-Regular',
-    fontWeight: FontWeight.normal,
+  static const TextStyle normal = TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w400,
     fontSize: 18
   );
 
-  TextStyle subHeading = TextStyle(
-    fontFamily: 'Poppins-Medium',
+  static const TextStyle subHeading = TextStyle(
+    fontFamily: 'Poppins',
     fontWeight: FontWeight.w300,
     fontSize: 14
   );
