@@ -19,5 +19,11 @@ class AppText {
     fontWeight: FontWeight.w300,
     fontSize: 14
   );
+
+  static const TextStyle heading2 = TextStyle(
+    fontFamily: 'Poppins',
+    fontWeight: FontWeight.w500,
+    fontSize: 18
+  );
   
 }
