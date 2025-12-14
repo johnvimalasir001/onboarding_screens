@@ -8,6 +8,7 @@ class NextButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
+      heroTag: 'next',
       onPressed: () {
         Navigator.push(
           context,
